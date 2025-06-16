@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_paint/circle.dart';
 import 'package:flutter_paint/heart.dart';
 import 'package:flutter_paint/oval.dart';
+import 'package:flutter_paint/star.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const OvalScreen(),
+      home: const StarScreen(),
     );
   }
 }
