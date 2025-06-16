@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_paint/circle.dart';
+import 'package:flutter_paint/heart.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const CircleScreen(),
+      home: const HeartScreen(),
     );
   }
-
 }
